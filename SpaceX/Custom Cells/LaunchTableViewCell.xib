@@ -80,13 +80,13 @@
                             <stackView opaque="NO" contentMode="TopLeft" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="inU-3F-mcx">
                                 <rect key="frame" x="0.0" y="63.666666666666679" width="185" height="21.333333333333336"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Days (since/from) now:" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CJV-e1-ANV">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Days (since/from) now:" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CJV-e1-ANV">
                                         <rect key="frame" x="0.0" y="0.0" width="175" height="21.333333333333332"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DY4-hC-35P">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DY4-hC-35P">
                                         <rect key="frame" x="180" y="0.0" width="5" height="21.333333333333332"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -118,6 +118,14 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="DaysOfMissionLabel" destination="DY4-hC-35P" id="gj9-gK-sJO"/>
+                <outlet property="dateMissionLabel" destination="c5d-zL-qgX" id="Bwi-Dl-qoK"/>
+                <outlet property="lauchSuccessfulImage" destination="TxR-8Z-kc0" id="Ghn-Lr-fn7"/>
+                <outlet property="missionImage" destination="UG6-gf-4Dc" id="2q7-Xk-acP"/>
+                <outlet property="missionNameLabel" destination="EsV-cz-6rk" id="RN0-3X-O3s"/>
+                <outlet property="rocketNameLabel" destination="APQ-Jf-RFU" id="FdV-9d-czI"/>
+            </connections>
             <point key="canvasLocation" x="145.38461538461539" y="6.7535545023696679"/>
         </tableViewCell>
     </objects>

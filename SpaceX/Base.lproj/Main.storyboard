@@ -17,19 +17,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sln-fF-yWr" userLabel="Company View">
-                                <rect key="frame" x="0.0" y="44" width="375" height="61"/>
+                                <rect key="frame" x="0.0" y="44" width="375" height="74"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bjx-6N-e3B" userLabel="Title View">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xUQ-Ex-2aA">
-                                                <rect key="frame" x="20" y="5" width="335" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <rect key="frame" x="20" y="5" width="335" height="33.5"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="xUQ-Ex-2aA" secondAttribute="bottom" constant="5" id="Bb1-Dw-zz9"/>
                                             <constraint firstItem="xUQ-Ex-2aA" firstAttribute="leading" secondItem="Bjx-6N-e3B" secondAttribute="leading" constant="20" id="Ejd-rr-eQM"/>
@@ -38,7 +38,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Cd-Ox-8GW" userLabel="Info View">
-                                        <rect key="frame" x="0.0" y="30.5" width="375" height="30.5"/>
+                                        <rect key="frame" x="0.0" y="43.5" width="375" height="30.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lQw-DJ-f9f">
                                                 <rect key="frame" x="20" y="5" width="335" height="20.5"/>
@@ -68,16 +68,16 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6iE-2z-Vww" userLabel="Launches View">
-                                <rect key="frame" x="0.0" y="100" width="375" height="30.5"/>
+                                <rect key="frame" x="0.0" y="113" width="375" height="36.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XKc-0z-UbG">
-                                        <rect key="frame" x="20" y="5" width="335" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <rect key="frame" x="20" y="5" width="335" height="26.5"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="XKc-0z-UbG" secondAttribute="trailing" constant="20" id="4jQ-sa-0YF"/>
                                     <constraint firstItem="XKc-0z-UbG" firstAttribute="top" secondItem="6iE-2z-Vww" secondAttribute="top" constant="5" id="LVk-xX-3Em"/>
@@ -86,7 +86,7 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Cah-GF-i1B">
-                                <rect key="frame" x="0.0" y="125.5" width="375" height="541.5"/>
+                                <rect key="frame" x="0.0" y="144.5" width="375" height="522.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="400" id="mIa-LE-4Aq"/>
